@@ -12,18 +12,18 @@ type Palette = {
 }
 
 const palettes: Palette[] = [
-  { name: '苔蘚 × 奶油', mood: '安靜的自然手記', label: 'MOSS', colors: ['#315a47', '#f4ecd9', '#d79a4e'], title: 'slow\nplaces', subtitle: 'A field guide to being here', number: '01' },
-  { name: '祖母綠 × 珊瑚', mood: '熱帶午後的果敢', label: 'EMERALD', colors: ['#006c5d', '#ff765e', '#f7e5c7'], title: 'the\nweekend', subtitle: 'Sun, salt & small adventures', number: '02' },
-  { name: '鼠尾草 × 墨黑', mood: '極簡而有份量', label: 'SAGE', colors: ['#a6b7a1', '#20231f', '#f9f5eb'], title: 'form &\nfeeling', subtitle: 'The quiet power of good design', number: '03' },
-  { name: '森林綠 × 薰衣草', mood: '夜色中的奇想', label: 'FOREST', colors: ['#193c32', '#c9b9df', '#f4e6c5'], title: 'after\ndark', subtitle: 'Stories for the softer hours', number: '04' },
-  { name: '橄欖綠 × 粉紅', mood: '復古又俏皮', label: 'OLIVE', colors: ['#737d35', '#f4a4a4', '#fff0cf'], title: 'good\ntaste', subtitle: 'An edible kind of optimism', number: '05' },
-  { name: '薄荷綠 × 靛藍', mood: '清醒的未來感', label: 'MINT', colors: ['#86d7bd', '#183d83', '#f7f2e8'], title: 'new\nways', subtitle: 'A guide to tomorrow, gently', number: '06' },
-  { name: '松針綠 × 駝色', mood: '經典而溫暖', label: 'PINE', colors: ['#174235', '#c59562', '#f1e7d2'], title: 'the\ncommon', subtitle: 'Objects for a well-lived life', number: '07' },
-  { name: '萊姆綠 × 莓果紅', mood: '明亮的叛逆感', label: 'LIME', colors: ['#a9c93d', '#9f274a', '#fff7dc'], title: 'make\nnoise', subtitle: 'The playful issue', number: '08' },
-  { name: '海藻綠 × 天藍', mood: '輕盈的海岸假期', label: 'KELP', colors: ['#2b756b', '#82c9df', '#fff0c5'], title: 'tide\nlines', subtitle: 'Notes from the edge of water', number: '09' },
-  { name: '玉石綠 × 朱紅', mood: '有文化感的張力', label: 'JADE', colors: ['#287466', '#d94f38', '#f6e8cd'], title: 'ordinary\nmagic', subtitle: 'Culture, craft & curiosity', number: '10' },
-  { name: '灰綠 × 鵝黃', mood: '柔和的居家日常', label: 'EUCALYPTUS', colors: ['#748b78', '#f0d878', '#fff9ee'], title: 'at\nhome', subtitle: 'Room to breathe, space to grow', number: '11' },
-  { name: '孔雀綠 × 紫羅蘭', mood: '大膽的藝術宣言', label: 'PEACOCK', colors: ['#007a70', '#7f4da0', '#ffdda7'], title: 'outside\nthe line', subtitle: 'A colour issue', number: '12' },
+  { name: '森林綠 × 薰衣草', mood: '夜色中的奇想', label: 'FOREST', colors: ['#193c32', '#c9b9df', '#f4e6c5'], title: 'after\ndark', subtitle: 'Stories for the softer hours', number: '01' },
+  { name: '松針綠 × 駝色', mood: '經典而溫暖', label: 'PINE', colors: ['#174235', '#c59562', '#f1e7d2'], title: 'the\ncommon', subtitle: 'Objects for a well-lived life', number: '02' },
+  { name: '苔蘚 × 奶油', mood: '安靜的自然手記', label: 'MOSS', colors: ['#315a47', '#f4ecd9', '#d79a4e'], title: 'slow\nplaces', subtitle: 'A field guide to being here', number: '03' },
+  { name: '祖母綠 × 珊瑚', mood: '熱帶午後的果敢', label: 'EMERALD', colors: ['#006c5d', '#ff765e', '#f7e5c7'], title: 'the\nweekend', subtitle: 'Sun, salt & small adventures', number: '04' },
+  { name: '孔雀綠 × 紫羅蘭', mood: '大膽的藝術宣言', label: 'PEACOCK', colors: ['#007a70', '#7f4da0', '#ffdda7'], title: 'outside\nthe line', subtitle: 'A colour issue', number: '05' },
+  { name: '玉石綠 × 朱紅', mood: '有文化感的張力', label: 'JADE', colors: ['#287466', '#d94f38', '#f6e8cd'], title: 'ordinary\nmagic', subtitle: 'Culture, craft & curiosity', number: '06' },
+  { name: '海藻綠 × 天藍', mood: '輕盈的海岸假期', label: 'KELP', colors: ['#2b756b', '#82c9df', '#fff0c5'], title: 'tide\nlines', subtitle: 'Notes from the edge of water', number: '07' },
+  { name: '橄欖綠 × 粉紅', mood: '復古又俏皮', label: 'OLIVE', colors: ['#737d35', '#f4a4a4', '#fff0cf'], title: 'good\ntaste', subtitle: 'An edible kind of optimism', number: '08' },
+  { name: '灰綠 × 鵝黃', mood: '柔和的居家日常', label: 'EUCALYPTUS', colors: ['#748b78', '#f0d878', '#fff9ee'], title: 'at\nhome', subtitle: 'Room to breathe, space to grow', number: '09' },
+  { name: '鼠尾草 × 墨黑', mood: '極簡而有份量', label: 'SAGE', colors: ['#a6b7a1', '#20231f', '#f9f5eb'], title: 'form &\nfeeling', subtitle: 'The quiet power of good design', number: '10' },
+  { name: '萊姆綠 × 莓果紅', mood: '明亮的叛逆感', label: 'LIME', colors: ['#a9c93d', '#9f274a', '#fff7dc'], title: 'make\nnoise', subtitle: 'The playful issue', number: '11' },
+  { name: '薄荷綠 × 靛藍', mood: '清醒的未來感', label: 'MINT', colors: ['#86d7bd', '#183d83', '#f7f2e8'], title: 'new\nways', subtitle: 'A guide to tomorrow, gently', number: '12' },
 ]
 
 const selected = ref(0)
@@ -66,7 +66,7 @@ function choosePalette(index: number) {
       </div>
 
       <aside class="palette-panel">
-        <p class="panel-label">CHOOSE A MOOD</p>
+        <p class="panel-label">CHOOSE A MOOD · 深 → 淺</p>
         <div class="palette-list" role="radiogroup" aria-label="選擇色彩組合">
           <button v-for="(item, index) in palettes" :key="item.label" class="palette-choice" :class="{ active: selected === index }" type="button" role="radio" :aria-checked="selected === index" @click="choosePalette(index)">
             <span class="choice-number">{{ String(index + 1).padStart(2, '0') }}</span>
